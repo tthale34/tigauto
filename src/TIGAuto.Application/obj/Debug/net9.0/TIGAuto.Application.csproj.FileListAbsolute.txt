@@ -1,0 +1,15 @@
+C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Application\bin\Debug\net9.0\TIGAuto.Application.deps.json
+C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Application\bin\Debug\net9.0\TIGAuto.Application.dll
+C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Application\bin\Debug\net9.0\TIGAuto.Application.pdb
+C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Application\bin\Debug\net9.0\TIGAuto.Domain.dll
+C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Application\bin\Debug\net9.0\TIGAuto.Domain.pdb
+C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Application\obj\Debug\net9.0\TIGAuto.Application.csproj.AssemblyReference.cache
+C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Application\obj\Debug\net9.0\TIGAuto.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Application\obj\Debug\net9.0\TIGAuto.Application.AssemblyInfoInputs.cache
+C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Application\obj\Debug\net9.0\TIGAuto.Application.AssemblyInfo.cs
+C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Application\obj\Debug\net9.0\TIGAuto.Application.csproj.CoreCompileInputs.cache
+C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Application\obj\Debug\net9.0\TIGAuto..FB410F05.Up2Date
+C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Application\obj\Debug\net9.0\TIGAuto.Application.dll
+C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Application\obj\Debug\net9.0\refint\TIGAuto.Application.dll
+C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Application\obj\Debug\net9.0\TIGAuto.Application.pdb
+C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Application\obj\Debug\net9.0\ref\TIGAuto.Application.dll

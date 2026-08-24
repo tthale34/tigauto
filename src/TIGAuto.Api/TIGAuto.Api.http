@@ -1,0 +1,6 @@
+@TIGAuto.Api_HostAddress = http://localhost:5138
+
+GET {{TIGAuto.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

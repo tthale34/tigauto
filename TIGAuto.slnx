@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/TIGAuto.Api/TIGAuto.Api.csproj" />
+    <Project Path="src/TIGAuto.Application/TIGAuto.Application.csproj" />
+    <Project Path="src/TIGAuto.Domain/TIGAuto.Domain.csproj" />
+    <Project Path="src/TIGAuto.Infrastructure/TIGAuto.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/TIGAuto.UnitTests/TIGAuto.UnitTests.csproj" />
+  </Folder>
+</Solution>

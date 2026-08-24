@@ -1,0 +1,11 @@
+C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Domain\bin\Debug\net9.0\TIGAuto.Domain.deps.json
+C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Domain\bin\Debug\net9.0\TIGAuto.Domain.dll
+C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Domain\bin\Debug\net9.0\TIGAuto.Domain.pdb
+C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Domain\obj\Debug\net9.0\TIGAuto.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Domain\obj\Debug\net9.0\TIGAuto.Domain.AssemblyInfoInputs.cache
+C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Domain\obj\Debug\net9.0\TIGAuto.Domain.AssemblyInfo.cs
+C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Domain\obj\Debug\net9.0\TIGAuto.Domain.csproj.CoreCompileInputs.cache
+C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Domain\obj\Debug\net9.0\TIGAuto.Domain.dll
+C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Domain\obj\Debug\net9.0\refint\TIGAuto.Domain.dll
+C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Domain\obj\Debug\net9.0\TIGAuto.Domain.pdb
+C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Domain\obj\Debug\net9.0\ref\TIGAuto.Domain.dll

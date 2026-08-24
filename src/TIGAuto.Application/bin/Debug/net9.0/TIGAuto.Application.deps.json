@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "TIGAuto.Application/1.0.0": {
+        "dependencies": {
+          "TIGAuto.Domain": "1.0.0"
+        },
+        "runtime": {
+          "TIGAuto.Application.dll": {}
+        }
+      },
+      "TIGAuto.Domain/1.0.0": {
+        "runtime": {
+          "TIGAuto.Domain.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TIGAuto.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TIGAuto.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

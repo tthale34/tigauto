@@ -1,0 +1,17 @@
+C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Infrastructure\bin\Debug\net9.0\TIGAuto.Infrastructure.deps.json
+C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Infrastructure\bin\Debug\net9.0\TIGAuto.Infrastructure.runtimeconfig.json
+C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Infrastructure\bin\Debug\net9.0\TIGAuto.Infrastructure.dll
+C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Infrastructure\bin\Debug\net9.0\TIGAuto.Infrastructure.pdb
+C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Infrastructure\bin\Debug\net9.0\TIGAuto.Domain.dll
+C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Infrastructure\bin\Debug\net9.0\TIGAuto.Domain.pdb
+C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Infrastructure\obj\Debug\net9.0\TIGAuto.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Infrastructure\obj\Debug\net9.0\TIGAuto.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Infrastructure\obj\Debug\net9.0\TIGAuto.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Infrastructure\obj\Debug\net9.0\TIGAuto.Infrastructure.AssemblyInfo.cs
+C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Infrastructure\obj\Debug\net9.0\TIGAuto.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Infrastructure\obj\Debug\net9.0\TIGAuto..B3CC9FAF.Up2Date
+C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Infrastructure\obj\Debug\net9.0\TIGAuto.Infrastructure.dll
+C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Infrastructure\obj\Debug\net9.0\refint\TIGAuto.Infrastructure.dll
+C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Infrastructure\obj\Debug\net9.0\TIGAuto.Infrastructure.pdb
+C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Infrastructure\obj\Debug\net9.0\TIGAuto.Infrastructure.genruntimeconfig.cache
+C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Infrastructure\obj\Debug\net9.0\ref\TIGAuto.Infrastructure.dll
