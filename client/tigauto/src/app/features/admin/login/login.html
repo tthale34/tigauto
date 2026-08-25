@@ -1,0 +1,140 @@
+<div class="login-page">
+
+  <div class="login-card">
+
+
+    <!-- LOGO -->
+
+    <div class="logo">
+
+      <span class="logo-arrows">
+        »
+      </span>
+
+      TIG<span>AUTO</span>
+
+    </div>
+
+
+    <div class="admin-label">
+      ADMIN PORTAL
+    </div>
+
+
+    <!-- HEADING -->
+
+    <div class="login-heading">
+
+      <h1>
+        Welcome back
+      </h1>
+
+      <p>
+        Sign in to manage your TIGAUTO
+        vehicle inventory.
+      </p>
+
+    </div>
+
+
+    <!-- FORM -->
+
+    <form
+      (ngSubmit)="login()"
+    >
+
+
+      <!-- USERNAME -->
+
+      <div class="field">
+
+        <label>
+          Username
+        </label>
+
+        <input
+          type="text"
+          name="username"
+          [(ngModel)]="username"
+          placeholder="Enter username"
+          autocomplete="username"
+          required
+        />
+
+      </div>
+
+
+      <!-- PASSWORD -->
+
+      <div class="field">
+
+        <label>
+          Password
+        </label>
+
+        <input
+          type="password"
+          name="password"
+          [(ngModel)]="password"
+          placeholder="Enter password"
+          autocomplete="current-password"
+          required
+        />
+
+      </div>
+
+
+      <!-- ERROR -->
+
+      @if (errorMessage) {
+
+        <div class="error-message">
+
+          {{ errorMessage }}
+
+        </div>
+
+      }
+
+
+      <!-- LOGIN -->
+
+      <button
+        type="submit"
+        [disabled]="
+          !username ||
+          !password ||
+          isLoading
+        "
+      >
+
+        @if (isLoading) {
+
+          Signing in...
+
+        } @else {
+
+          Sign In
+
+        }
+
+      </button>
+
+
+    </form>
+
+
+    <!-- BACK -->
+
+    <div class="login-footer">
+
+      <a href="/">
+        ← Back to TIGAUTO
+      </a>
+
+    </div>
+
+
+  </div>
+
+</div>

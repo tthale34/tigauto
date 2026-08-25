@@ -1,0 +1,305 @@
+<main class="cars-page">
+
+  <section class="cars-header">
+
+    <div class="cars-header-content">
+
+      <span class="eyebrow">
+        TIGAUTO COLLECTION
+      </span>
+
+      <h1>
+        Find your next
+        <span>car.</span>
+      </h1>
+
+      <p>
+        Browse our selection of quality
+        new and used vehicles.
+      </p>
+
+    </div>
+
+  </section>
+
+
+  <section class="catalogue">
+
+    <div class="catalogue-layout">
+
+      <!-- FILTERS -->
+
+      <aside class="filters">
+
+        <div class="filter-heading">
+
+          <h2>
+            Filter cars
+          </h2>
+
+          <button
+            type="button"
+            (click)="resetFilters()"
+          >
+            Reset
+          </button>
+
+        </div>
+
+
+        <label>
+          Search
+        </label>
+
+        <input
+          type="text"
+          [(ngModel)]="searchTerm"
+          placeholder="Make, model or variant"
+        />
+
+
+        <label>
+          Make
+        </label>
+
+        <select
+          [(ngModel)]="selectedMake"
+        >
+
+          <option value="">
+            All makes
+          </option>
+
+          @for (
+            make of makes;
+            track make
+          ) {
+
+            <option [value]="make">
+              {{ make }}
+            </option>
+
+          }
+
+        </select>
+
+
+        <label>
+          Province
+        </label>
+
+        <select
+          [(ngModel)]="selectedProvince"
+        >
+
+          <option value="">
+            All provinces
+          </option>
+
+          @for (
+            province of provinces;
+            track province
+          ) {
+
+            <option [value]="province">
+              {{ province }}
+            </option>
+
+          }
+
+        </select>
+
+
+        <div class="filter-label">
+          Price
+        </div>
+
+        <div class="two-column">
+
+          <input
+            type="number"
+            [(ngModel)]="minPrice"
+            placeholder="Min"
+          />
+
+          <input
+            type="number"
+            [(ngModel)]="maxPrice"
+            placeholder="Max"
+          />
+
+        </div>
+
+
+        <div class="filter-label">
+          Year
+        </div>
+
+        <div class="two-column">
+
+          <input
+            type="number"
+            [(ngModel)]="minYear"
+            placeholder="Min"
+          />
+
+          <input
+            type="number"
+            [(ngModel)]="maxYear"
+            placeholder="Max"
+          />
+
+        </div>
+
+
+        <div class="filter-label">
+          Mileage
+        </div>
+
+        <div class="two-column">
+
+          <input
+            type="number"
+            [(ngModel)]="minMileage"
+            placeholder="Min"
+          />
+
+          <input
+            type="number"
+            [(ngModel)]="maxMileage"
+            placeholder="Max"
+          />
+
+        </div>
+
+      </aside>
+
+
+      <!-- RESULTS -->
+
+      <section class="results">
+
+        <div class="results-header">
+
+          <div>
+
+            <strong>
+              {{ cars.length }}
+            </strong>
+
+            cars found
+
+          </div>
+
+        </div>
+
+
+        @if (cars.length > 0) {
+
+          <div class="car-grid">
+
+            @for (
+              car of cars;
+              track car.id
+            ) {
+
+              <a
+                class="car-card"
+                [routerLink]="[
+                  '/cars',
+                  car.id
+                ]"
+              >
+
+                <div class="car-image">
+
+                  <img
+                    [src]="car.images[0]"
+                    [alt]="
+                      car.make +
+                      ' ' +
+                      car.model
+                    "
+                  />
+
+                  <span class="heart">
+                    ♡
+                  </span>
+
+                </div>
+
+
+                <div class="car-content">
+
+                  <h3>
+                    {{ car.year }}
+                    {{ car.make }}
+                    {{ car.model }}
+                  </h3>
+
+                  <p class="variant">
+                    {{ car.variant }}
+                  </p>
+
+                  <div class="price">
+                    R
+                    {{ car.price | number:'1.0-0' }}
+                  </div>
+
+                  <div class="meta">
+
+                    <span>
+                      {{ car.mileage | number:'1.0-0' }}
+                      km
+                    </span>
+
+                    <span>
+                      {{ car.province }}
+                    </span>
+
+                  </div>
+
+                </div>
+
+              </a>
+
+            }
+
+          </div>
+
+        }
+        @else {
+
+          <div class="no-results">
+
+            <div class="no-results-icon">
+              🚗
+            </div>
+
+            <h2>
+              No cars found
+            </h2>
+
+            <p>
+              Try changing your search
+              criteria.
+            </p>
+
+            <button
+              type="button"
+              (click)="resetFilters()"
+            >
+              Clear filters
+            </button>
+
+          </div>
+
+        }
+
+      </section>
+
+    </div>
+
+  </section>
+
+</main>

@@ -1,0 +1,621 @@
+<section class="car-form-page">
+
+  <!-- PAGE HEADER -->
+
+  <div class="page-heading">
+
+    <div>
+
+      <span class="eyebrow">
+        VEHICLE MANAGEMENT
+      </span>
+
+      <h1>
+        @if (isEditMode) {
+          Edit Vehicle
+        }
+        @else {
+          Add Vehicle
+        }
+      </h1>
+
+      <p>
+        @if (isEditMode) {
+          Update the vehicle information below.
+        }
+        @else {
+          Add a new vehicle to the TIGAUTO inventory.
+        }
+      </p>
+
+    </div>
+
+  </div>
+
+
+  <!-- ==========================================
+       FORM
+       ========================================== -->
+
+  <form
+    [formGroup]="form"
+    (ngSubmit)="save()"
+  >
+
+
+    <!-- ========================================
+         VEHICLE INFORMATION
+         ======================================== -->
+
+    <section class="form-card">
+
+      <div class="card-heading">
+
+        <h2>
+          Vehicle information
+        </h2>
+
+        <p>
+          Enter the basic information about
+          the vehicle.
+        </p>
+
+      </div>
+
+
+      <div class="form-grid">
+
+
+        <!-- MAKE -->
+
+        <div class="field">
+
+          <label>
+            Make *
+          </label>
+
+          <input
+            type="text"
+            formControlName="make"
+            placeholder="e.g. Toyota"
+          />
+
+          @if (
+            form.controls.make.invalid &&
+            form.controls.make.touched
+          ) {
+
+            <small class="error">
+              Make is required.
+            </small>
+
+          }
+
+        </div>
+
+
+        <!-- MODEL -->
+
+        <div class="field">
+
+          <label>
+            Model *
+          </label>
+
+          <input
+            type="text"
+            formControlName="model"
+            placeholder="e.g. Corolla"
+          />
+
+          @if (
+            form.controls.model.invalid &&
+            form.controls.model.touched
+          ) {
+
+            <small class="error">
+              Model is required.
+            </small>
+
+          }
+
+        </div>
+
+
+        <!-- VARIANT -->
+
+        <div class="field">
+
+          <label>
+            Variant *
+          </label>
+
+          <input
+            type="text"
+            formControlName="variant"
+            placeholder="e.g. 1.8 XS CVT"
+          />
+
+        </div>
+
+
+        <!-- YEAR -->
+
+        <div class="field">
+
+          <label>
+            Year *
+          </label>
+
+          <input
+            type="number"
+            formControlName="year"
+            placeholder="2022"
+          />
+
+        </div>
+
+
+        <!-- PRICE -->
+
+        <div class="field">
+
+          <label>
+            Price (R) *
+          </label>
+
+          <input
+            type="number"
+            formControlName="price"
+            placeholder="289900"
+          />
+
+        </div>
+
+
+        <!-- MILEAGE -->
+
+        <div class="field">
+
+          <label>
+            Mileage (km) *
+          </label>
+
+          <input
+            type="number"
+            formControlName="mileage"
+            placeholder="45000"
+          />
+
+        </div>
+
+
+        <!-- PROVINCE -->
+
+        <div class="field">
+
+          <label>
+            Province *
+          </label>
+
+          <select
+            formControlName="province"
+          >
+
+            <option value="">
+              Select province
+            </option>
+
+            @for (
+              province of provinces;
+              track province
+            ) {
+
+              <option
+                [value]="province"
+              >
+                {{ province }}
+              </option>
+
+            }
+
+          </select>
+
+        </div>
+
+
+        <!-- CITY -->
+
+        <div class="field">
+
+          <label>
+            City *
+          </label>
+
+          <input
+            type="text"
+            formControlName="city"
+            placeholder="Johannesburg"
+          />
+
+        </div>
+
+
+        <!-- FUEL -->
+
+        <div class="field">
+
+          <label>
+            Fuel Type
+          </label>
+
+          <select
+            formControlName="fuelType"
+          >
+
+            <option value="Petrol">
+              Petrol
+            </option>
+
+            <option value="Diesel">
+              Diesel
+            </option>
+
+            <option value="Electric">
+              Electric
+            </option>
+
+            <option value="Hybrid">
+              Hybrid
+            </option>
+
+          </select>
+
+        </div>
+
+
+        <!-- TRANSMISSION -->
+
+        <div class="field">
+
+          <label>
+            Transmission
+          </label>
+
+          <select
+            formControlName="transmission"
+          >
+
+            <option value="Automatic">
+              Automatic
+            </option>
+
+            <option value="Manual">
+              Manual
+            </option>
+
+          </select>
+
+        </div>
+
+
+        <!-- ENGINE -->
+
+        <div class="field">
+
+          <label>
+            Engine Size
+          </label>
+
+          <input
+            type="text"
+            formControlName="engineSize"
+            placeholder="e.g. 2.0L"
+          />
+
+        </div>
+
+
+        <!-- COLOUR -->
+
+        <div class="field">
+
+          <label>
+            Colour
+          </label>
+
+          <input
+            type="text"
+            formControlName="colour"
+            placeholder="e.g. White"
+          />
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ========================================
+         VEHICLE IMAGES
+         ======================================== -->
+
+    <section class="form-card">
+
+      <div class="card-heading">
+
+        <h2>
+          Vehicle images
+        </h2>
+
+        <p>
+          Add photos of the vehicle.
+          The first image will be used as
+          the main vehicle image.
+        </p>
+
+      </div>
+
+
+      <!-- UPLOAD -->
+
+      <label class="upload-area">
+
+        <input
+          type="file"
+          accept="image/*"
+          multiple
+          (change)="onImagesSelected($event)"
+        />
+
+        <div class="upload-icon">
+          +
+        </div>
+
+        <strong>
+          Add vehicle photos
+        </strong>
+
+        <span>
+          Click to select one or more images
+        </span>
+
+        <small>
+          JPG, PNG or WEBP
+        </small>
+
+      </label>
+
+
+      <!-- PREVIEWS -->
+
+      @if (vehicleImages.length > 0) {
+
+        <div class="image-preview">
+
+          @for (
+            image of vehicleImages;
+            track $index;
+            let i = $index
+          ) {
+
+            <div
+              class="image-item"
+              [class.main-image]="i === 0"
+            >
+
+              <img
+                [src]="image"
+                alt="Vehicle preview"
+              />
+
+
+              @if (i === 0) {
+
+                <span class="main-badge">
+                  Main image
+                </span>
+
+              }
+
+
+              <div class="image-actions">
+
+                @if (i !== 0) {
+
+                  <button
+                    type="button"
+                    title="Make main image"
+                    (click)="setMainImage(i)"
+                  >
+                    ★
+                  </button>
+
+                }
+
+
+                <button
+                  type="button"
+                  title="Remove image"
+                  (click)="removeImage(i)"
+                >
+                  ×
+                </button>
+
+              </div>
+
+            </div>
+
+          }
+
+        </div>
+
+      }
+
+    </section>
+
+
+
+    <!-- ========================================
+         DESCRIPTION
+         ======================================== -->
+
+    <section class="form-card">
+
+      <div class="card-heading">
+
+        <h2>
+          Vehicle description
+        </h2>
+
+        <p>
+          Give customers more information
+          about the vehicle.
+        </p>
+
+      </div>
+
+
+      <div class="field">
+
+        <label>
+          Description *
+        </label>
+
+        <textarea
+          rows="7"
+          formControlName="description"
+          placeholder="Describe the vehicle, service history, condition, features and anything else customers should know..."
+        ></textarea>
+
+        @if (
+          form.controls.description.invalid &&
+          form.controls.description.touched
+        ) {
+
+          <small class="error">
+            Description is required.
+          </small>
+
+        }
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ========================================
+         LISTING OPTIONS
+         ======================================== -->
+
+    <section class="form-card">
+
+      <div class="card-heading">
+
+        <h2>
+          Listing options
+        </h2>
+
+        <p>
+          Control how this vehicle appears
+          on the TIGAUTO website.
+        </p>
+
+      </div>
+
+
+      <!-- AVAILABLE -->
+
+      <label class="checkbox">
+
+        <input
+          type="checkbox"
+          formControlName="isAvailable"
+        />
+
+        <span>
+
+          <strong>
+            Vehicle is available
+          </strong>
+
+          <small>
+            Customers can see this vehicle
+            as available for sale.
+          </small>
+
+        </span>
+
+      </label>
+
+
+      <!-- FEATURED -->
+
+      <label class="checkbox">
+
+        <input
+          type="checkbox"
+          formControlName="isFeatured"
+        />
+
+        <span>
+
+          <strong>
+            Feature this vehicle
+          </strong>
+
+          <small>
+            Show this vehicle in the
+            featured vehicles section
+            on the homepage.
+          </small>
+
+        </span>
+
+      </label>
+
+    </section>
+
+
+
+    <!-- ========================================
+         ACTIONS
+         ======================================== -->
+
+    <div class="form-actions">
+
+      <a
+        routerLink="/admin/cars"
+        class="cancel-button"
+      >
+        Cancel
+      </a>
+
+
+      <button
+        type="submit"
+        class="save-button"
+      >
+
+        @if (isEditMode) {
+
+          Save Changes
+
+        }
+        @else {
+
+          Add Vehicle
+
+        }
+
+      </button>
+
+    </div>
+
+
+  </form>
+
+</section>

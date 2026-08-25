@@ -1,0 +1,377 @@
+.details-page {
+  min-height: 100vh;
+
+  padding: 45px 24px 80px;
+
+  background: #06191c;
+
+  color: white;
+}
+
+.details-container {
+  width: min(
+    1250px,
+    100%
+  );
+
+  margin: auto;
+}
+
+.back-link {
+  display: inline-block;
+
+  margin-bottom: 25px;
+
+  color: #00bdc9;
+
+  text-decoration: none;
+
+  font-size: 14px;
+}
+
+.vehicle {
+  display: grid;
+
+  grid-template-columns:
+    1.25fr 1fr;
+
+  gap: 45px;
+}
+
+
+/* GALLERY */
+
+.main-image {
+  position: relative;
+
+  height: 520px;
+
+  overflow: hidden;
+
+  border-radius: 18px;
+
+  background: #10292d;
+}
+
+.main-image img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+
+.gallery-heart {
+  position: absolute;
+
+  top: 18px;
+  right: 18px;
+
+  width: 45px;
+  height: 45px;
+
+  border:
+    1px solid rgba(255, 255, 255, 0.3);
+
+  border-radius: 50%;
+
+  background:
+    rgba(0, 0, 0, 0.45);
+
+  color: white;
+
+  font-size: 23px;
+
+  cursor: pointer;
+}
+
+.thumbnails {
+  display: flex;
+
+  gap: 10px;
+
+  margin-top: 12px;
+}
+
+.thumbnail {
+  width: 80px;
+  height: 65px;
+
+  padding: 0;
+
+  overflow: hidden;
+
+  border:
+    2px solid transparent;
+
+  border-radius: 8px;
+
+  background: transparent;
+
+  cursor: pointer;
+}
+
+.thumbnail.selected {
+  border-color: #00bdc9;
+}
+
+.thumbnail img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}
+
+
+/* DETAILS */
+
+.vehicle-info {
+  padding-top: 20px;
+}
+
+.vehicle-label {
+  color: #00bdc9;
+
+  font-size: 13px;
+
+  font-weight: 600;
+}
+
+.vehicle-info h1 {
+  margin: 12px 0 3px;
+
+  font-size: clamp(
+    38px,
+    5vw,
+    58px
+  );
+
+  line-height: 1;
+
+  letter-spacing: -2px;
+}
+
+.vehicle-info h2 {
+  margin: 0;
+
+  color: #91a7aa;
+
+  font-size: 18px;
+
+  font-weight: 400;
+}
+
+.price {
+  margin-top: 30px;
+
+  font-size: 35px;
+
+  font-weight: 800;
+}
+
+.quick-specs {
+  display: grid;
+
+  grid-template-columns:
+    1fr 1fr;
+
+  gap: 1px;
+
+  margin-top: 30px;
+
+  overflow: hidden;
+
+  border-radius: 12px;
+
+  background:
+    rgba(255, 255, 255, 0.08);
+}
+
+.quick-specs div {
+  padding: 17px;
+
+  background: #10292d;
+}
+
+.quick-specs span {
+  display: block;
+
+  margin-bottom: 5px;
+
+  color: #789094;
+
+  font-size: 12px;
+}
+
+.quick-specs strong {
+  font-size: 14px;
+}
+
+.contact-button {
+  width: 100%;
+
+  height: 58px;
+
+  margin-top: 25px;
+
+  border: 0;
+
+  border-radius: 10px;
+
+  background:
+    linear-gradient(
+      135deg,
+      #009eab,
+      #00c2ce
+    );
+
+  color: white;
+
+  font-size: 17px;
+
+  font-weight: 700;
+
+  cursor: pointer;
+}
+
+.contact-note {
+  color: #71898c;
+
+  font-size: 13px;
+
+  line-height: 1.6;
+
+  text-align: center;
+}
+
+
+/* INFORMATION */
+
+.information-card {
+  margin-top: 30px;
+
+  padding: 30px;
+
+  border:
+    1px solid rgba(255, 255, 255, 0.08);
+
+  border-radius: 15px;
+
+  background: #10292d;
+}
+
+.information-card h2 {
+  margin-top: 0;
+
+  font-size: 22px;
+}
+
+.information-card p {
+  max-width: 850px;
+
+  color: #91a7aa;
+
+  line-height: 1.8;
+}
+
+.spec-grid {
+  display: grid;
+
+  grid-template-columns:
+    repeat(4, 1fr);
+
+  gap: 1px;
+
+  overflow: hidden;
+
+  border-radius: 10px;
+
+  background:
+    rgba(255, 255, 255, 0.07);
+}
+
+.spec {
+  padding: 20px;
+
+  background: #0b2225;
+}
+
+.spec span {
+  display: block;
+
+  margin-bottom: 6px;
+
+  color: #71898c;
+
+  font-size: 12px;
+}
+
+.spec strong {
+  font-size: 14px;
+}
+
+
+/* NOT FOUND */
+
+.not-found {
+  min-height: 70vh;
+
+  padding: 100px 20px;
+
+  text-align: center;
+
+  background: #06191c;
+
+  color: white;
+}
+
+.not-found a {
+  color: #00bdc9;
+}
+
+
+/* MOBILE */
+
+@media (max-width: 850px) {
+
+  .vehicle {
+    grid-template-columns: 1fr;
+
+    gap: 25px;
+  }
+
+  .main-image {
+    height: 420px;
+  }
+
+  .spec-grid {
+    grid-template-columns:
+      repeat(2, 1fr);
+  }
+
+}
+
+@media (max-width: 550px) {
+
+  .details-page {
+    padding:
+      25px 14px 60px;
+  }
+
+  .main-image {
+    height: 300px;
+  }
+
+  .vehicle-info h1 {
+    font-size: 40px;
+  }
+
+  .quick-specs {
+    grid-template-columns:
+      1fr 1fr;
+  }
+
+  .spec-grid {
+    grid-template-columns: 1fr;
+  }
+
+}

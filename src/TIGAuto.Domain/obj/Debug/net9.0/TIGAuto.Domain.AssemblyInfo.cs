@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TIGAuto.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+39fbc98bc87e9e8821f6996203d1d03eb9534e84")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+14b6cf7893bb8ed2aaa17112a7e9526174ae17ce")]
 [assembly: System.Reflection.AssemblyProductAttribute("TIGAuto.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TIGAuto.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

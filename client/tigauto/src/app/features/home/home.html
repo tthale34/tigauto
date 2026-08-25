@@ -1,0 +1,418 @@
+<main class="home-page">
+
+  <!-- HERO -->
+  <section class="hero">
+
+    <div class="hero-overlay"></div>
+
+    <div class="hero-container">
+
+      <div class="hero-content">
+
+        <span class="hero-eyebrow">
+          TIGAUTO
+        </span>
+
+        <h1>
+          Quality cars
+          <span>for sale.</span>
+        </h1>
+
+        <p>
+          Let's find what
+          <strong>moves you.</strong>
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- SEARCH PANEL -->
+  <section class="search-wrapper">
+
+    <div class="search-card">
+
+      <div class="search-input-wrapper">
+
+        <span class="search-icon">
+          ⌕
+        </span>
+
+        <input
+          type="text"
+          [(ngModel)]="searchTerm"
+          placeholder='Try "Toyota Corolla"'
+        />
+
+      </div>
+
+
+      <div class="filter-row">
+
+        <select
+          [(ngModel)]="selectedMake"
+        >
+          <option value="">
+            Makes & Models
+          </option>
+
+          @for (make of makes; track make) {
+            <option [value]="make">
+              {{ make }}
+            </option>
+          }
+
+        </select>
+
+
+        <select
+          [(ngModel)]="selectedProvince"
+        >
+          <option value="">
+            Province
+          </option>
+
+          @for (
+            province of provinces;
+            track province
+          ) {
+
+            <option [value]="province">
+              {{ province }}
+            </option>
+
+          }
+
+        </select>
+
+      </div>
+
+
+      <div class="price-toggle">
+
+        <button
+          class="active"
+          type="button"
+        >
+          Cash Price
+        </button>
+
+        <button
+          type="button"
+        >
+          Monthly payment
+
+          <span class="info">
+            i
+          </span>
+
+        </button>
+
+      </div>
+
+
+      <div class="filter-grid">
+
+        <input
+          type="number"
+          [(ngModel)]="minPrice"
+          placeholder="Min Price"
+        />
+
+        <input
+          type="number"
+          [(ngModel)]="maxPrice"
+          placeholder="Max Price"
+        />
+
+        <input
+          type="number"
+          [(ngModel)]="minYear"
+          placeholder="Min Year"
+        />
+
+        <input
+          type="number"
+          [(ngModel)]="maxYear"
+          placeholder="Max Year"
+        />
+
+        <input
+          type="number"
+          [(ngModel)]="minMileage"
+          placeholder="Min Mileage"
+        />
+
+        <input
+          type="number"
+          [(ngModel)]="maxMileage"
+          placeholder="Max Mileage"
+        />
+
+      </div>
+
+
+      <div class="search-actions">
+
+        <button
+          class="reset-button"
+          type="button"
+          (click)="resetSearch()"
+        >
+          ↻
+          Reset
+        </button>
+
+        <button
+          class="refine-button"
+          type="button"
+        >
+          ⚙
+          Refine
+        </button>
+
+      </div>
+
+
+      <button
+        class="search-button"
+        type="button"
+        (click)="searchCars()"
+      >
+        Search {{ filteredCars.length }} Cars
+
+        <span>
+          →
+        </span>
+
+      </button>
+
+    </div>
+
+  </section>
+
+
+  <!-- TRUST FEATURES -->
+  <section
+    class="trust-section"
+    id="why-tigauto"
+  >
+
+    <div class="trust-container">
+
+      <div class="trust-item">
+
+        <span class="trust-icon">
+          ◈
+        </span>
+
+        <div>
+          <strong>
+            Trusted Dealers
+          </strong>
+
+          <small>
+            Verified & reliable
+          </small>
+        </div>
+
+      </div>
+
+
+      <div class="trust-item">
+
+        <span class="trust-icon">
+          ◇
+        </span>
+
+        <div>
+          <strong>
+            Wide Selection
+          </strong>
+
+          <small>
+            New & used cars
+          </small>
+        </div>
+
+      </div>
+
+
+      <div class="trust-item">
+
+        <span class="trust-icon">
+          ◆
+        </span>
+
+        <div>
+          <strong>
+            Great Prices
+          </strong>
+
+          <small>
+            Best deals available
+          </small>
+        </div>
+
+      </div>
+
+
+      <div class="trust-item">
+
+        <span class="trust-icon">
+          ◉
+        </span>
+
+        <div>
+          <strong>
+            Get Support
+          </strong>
+
+          <small>
+            We're here to help
+          </small>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!-- FEATURED CARS -->
+  <section
+    class="featured-section"
+    id="featured"
+  >
+
+    <div class="section-heading">
+
+      <div>
+
+        <span class="section-eyebrow">
+          TIGAUTO COLLECTION
+        </span>
+
+        <h2>
+          Pick up where
+          <span>you left off</span>
+        </h2>
+
+      </div>
+
+      <a
+        routerLink="/cars"
+        class="view-all"
+      >
+        View all →
+      </a>
+
+    </div>
+
+
+    <div class="car-grid">
+
+      @for (
+        car of filteredCars;
+        track car.id
+      ) {
+
+        <a
+          class="car-card"
+          [routerLink]="['/cars', car.id]"
+        >
+
+          <div class="car-image">
+
+            <img
+              [src]="car.images[0]"
+              [alt]="car.make + ' ' + car.model"
+            />
+
+            <button
+              class="favourite"
+              type="button"
+              (click)="$event.preventDefault(); $event.stopPropagation()"
+            >
+              ♡
+            </button>
+
+          </div>
+
+
+          <div class="car-content">
+
+            <h3>
+              {{ car.year }}
+              {{ car.make }}
+              {{ car.model }}
+            </h3>
+
+            <p class="variant">
+              {{ car.variant }}
+            </p>
+
+            <div class="car-price">
+              R {{ car.price | number:'1.0-0' }}
+            </div>
+
+            <div class="car-meta">
+
+              <span>
+                {{ car.mileage | number:'1.0-0' }} km
+              </span>
+
+              <span>
+                {{ car.province }}
+              </span>
+
+            </div>
+
+          </div>
+
+        </a>
+
+      }
+
+    </div>
+
+
+    @if (filteredCars.length === 0) {
+
+      <div class="empty-state">
+
+        <h3>
+          No cars found
+        </h3>
+
+        <p>
+          Try adjusting your search filters.
+        </p>
+
+        <button
+          type="button"
+          (click)="resetSearch()"
+        >
+          Reset search
+        </button>
+
+      </div>
+
+    }
+
+
+    <div class="more-cars">
+
+      <a routerLink="/cars">
+        View more cars
+      </a>
+
+    </div>
+
+  </section>
+
+</main>

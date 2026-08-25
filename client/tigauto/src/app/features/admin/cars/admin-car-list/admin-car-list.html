@@ -1,0 +1,174 @@
+<section class="vehicles-page">
+
+  <div class="page-heading">
+
+    <div>
+
+      <span class="eyebrow">
+        INVENTORY
+      </span>
+
+      <h1>
+        Vehicles
+      </h1>
+
+      <p>
+        Manage vehicles listed on TIGAUTO.
+      </p>
+
+    </div>
+
+
+    <a
+      routerLink="/admin/cars/add"
+      class="add-button"
+    >
+      + Add Vehicle
+    </a>
+
+  </div>
+
+
+  <div class="toolbar">
+
+    <input
+      type="text"
+      [(ngModel)]="searchTerm"
+      placeholder="Search vehicles..."
+    />
+
+    <span>
+      {{ cars.length }}
+      vehicles
+    </span>
+
+  </div>
+
+
+  <div class="table-card">
+
+    <div class="table-header">
+
+      <span>
+        Vehicle
+      </span>
+
+      <span>
+        Price
+      </span>
+
+      <span>
+        Mileage
+      </span>
+
+      <span>
+        Status
+      </span>
+
+      <span>
+        Actions
+      </span>
+
+    </div>
+
+
+    @for (
+      car of cars;
+      track car.id
+    ) {
+
+      <div class="table-row">
+
+        <div class="vehicle">
+
+          <img
+            [src]="car.images[0]"
+            [alt]="car.make"
+          />
+
+          <div>
+
+            <strong>
+              {{ car.year }}
+              {{ car.make }}
+              {{ car.model }}
+            </strong>
+
+            <span>
+              {{ car.variant }}
+            </span>
+
+          </div>
+
+        </div>
+
+
+        <div class="price">
+          R
+          {{ car.price | number:'1.0-0' }}
+        </div>
+
+
+        <div>
+          {{ car.mileage | number:'1.0-0' }}
+          km
+        </div>
+
+
+        <div>
+
+          @if (car.isAvailable) {
+
+            <span class="status available">
+              Available
+            </span>
+
+          }
+          @else {
+
+            <span class="status unavailable">
+              Unavailable
+            </span>
+
+          }
+
+        </div>
+
+
+        <div class="actions">
+
+          <a
+            [routerLink]="[
+              '/cars',
+              car.id
+            ]"
+            target="_blank"
+          >
+            View
+          </a>
+
+          <a
+            [routerLink]="[
+              '/admin/cars/edit',
+              car.id
+            ]"
+          >
+            Edit
+          </a>
+
+          <button
+            type="button"
+            (click)="deleteCar(car)"
+          >
+            Delete
+          </button>
+
+        </div>
+
+      </div>
+
+    }
+
+  </div>
+
+</section>

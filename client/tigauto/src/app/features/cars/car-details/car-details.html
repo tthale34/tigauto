@@ -1,0 +1,258 @@
+@if (car) {
+
+  <main class="details-page">
+
+    <div class="details-container">
+
+      <a
+        routerLink="/cars"
+        class="back-link"
+      >
+        ← Back to cars
+      </a>
+
+
+      <section class="vehicle">
+
+        <!-- IMAGE AREA -->
+
+        <div class="gallery">
+
+          <div class="main-image">
+
+            <img
+              [src]="selectedImage"
+              [alt]="
+                car.make +
+                ' ' +
+                car.model
+              "
+            />
+
+            <button
+              type="button"
+              class="gallery-heart"
+            >
+              ♡
+            </button>
+
+          </div>
+
+
+          <div class="thumbnails">
+
+            @for (
+              image of car.images;
+              track image
+            ) {
+
+              <button
+                type="button"
+                class="thumbnail"
+                [class.selected]="
+                  selectedImage === image
+                "
+                (click)="selectImage(image)"
+              >
+
+                <img
+                  [src]="image"
+                  [alt]="
+                    car.make +
+                    ' ' +
+                    car.model
+                  "
+                />
+
+              </button>
+
+            }
+
+          </div>
+
+        </div>
+
+
+        <!-- DETAILS -->
+
+        <div class="vehicle-info">
+
+          <span class="vehicle-label">
+            {{ car.year }} •
+            {{ car.province }}
+          </span>
+
+          <h1>
+            {{ car.make }}
+            {{ car.model }}
+          </h1>
+
+          <h2>
+            {{ car.variant }}
+          </h2>
+
+
+          <div class="price">
+            R
+            {{ car.price | number:'1.0-0' }}
+          </div>
+
+
+          <div class="quick-specs">
+
+            <div>
+              <span>Year</span>
+              <strong>
+                {{ car.year }}
+              </strong>
+            </div>
+
+            <div>
+              <span>Mileage</span>
+              <strong>
+                {{ car.mileage | number:'1.0-0' }}
+                km
+              </strong>
+            </div>
+
+            <div>
+              <span>Fuel</span>
+              <strong>
+                {{ car.fuelType }}
+              </strong>
+            </div>
+
+            <div>
+              <span>Transmission</span>
+              <strong>
+                {{ car.transmission }}
+              </strong>
+            </div>
+
+          </div>
+
+
+          <button
+            type="button"
+            class="contact-button"
+          >
+            Contact TIGAUTO
+          </button>
+
+          <p class="contact-note">
+            Interested in this vehicle?
+            Contact our team for more
+            information and availability.
+          </p>
+
+        </div>
+
+      </section>
+
+
+      <!-- DESCRIPTION -->
+
+      <section class="information-card">
+
+        <h2>
+          About this vehicle
+        </h2>
+
+        <p>
+          {{ car.description }}
+        </p>
+
+      </section>
+
+
+      <!-- SPECIFICATIONS -->
+
+      <section class="information-card">
+
+        <h2>
+          Vehicle specifications
+        </h2>
+
+        <div class="spec-grid">
+
+          <div class="spec">
+            <span>Make</span>
+            <strong>
+              {{ car.make }}
+            </strong>
+          </div>
+
+          <div class="spec">
+            <span>Model</span>
+            <strong>
+              {{ car.model }}
+            </strong>
+          </div>
+
+          <div class="spec">
+            <span>Year</span>
+            <strong>
+              {{ car.year }}
+            </strong>
+          </div>
+
+          <div class="spec">
+            <span>Mileage</span>
+            <strong>
+              {{ car.mileage | number:'1.0-0' }}
+              km
+            </strong>
+          </div>
+
+          <div class="spec">
+            <span>Fuel Type</span>
+            <strong>
+              {{ car.fuelType }}
+            </strong>
+          </div>
+
+          <div class="spec">
+            <span>Transmission</span>
+            <strong>
+              {{ car.transmission }}
+            </strong>
+          </div>
+
+          <div class="spec">
+            <span>Engine</span>
+            <strong>
+              {{ car.engineSize }}
+            </strong>
+          </div>
+
+          <div class="spec">
+            <span>Colour</span>
+            <strong>
+              {{ car.colour }}
+            </strong>
+          </div>
+
+        </div>
+
+      </section>
+
+    </div>
+
+  </main>
+
+}
+@else {
+
+  <main class="not-found">
+
+    <h1>
+      Vehicle not found
+    </h1>
+
+    <a routerLink="/cars">
+      Back to cars
+    </a>
+
+  </main>
+
+}

@@ -1,0 +1,43 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'primeicons/primeicons.css';
+
+:root {
+  --tigauto-primary: #00b8c5;
+  --tigauto-primary-dark: #008d98;
+
+  --tigauto-background: #06191c;
+  --tigauto-surface: #10292d;
+
+  --tigauto-text: #ffffff;
+  --tigauto-muted: #91a7aa;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+
+  font-family:
+    Inter,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+
+  background: var(--tigauto-background);
+
+  color: var(--tigauto-text);
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
