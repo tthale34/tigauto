@@ -15,3 +15,4 @@ C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Infrastructure\obj\Debug\n
 C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Infrastructure\obj\Debug\net9.0\TIGAuto.Infrastructure.pdb
 C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Infrastructure\obj\Debug\net9.0\TIGAuto.Infrastructure.genruntimeconfig.cache
 C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Infrastructure\obj\Debug\net9.0\ref\TIGAuto.Infrastructure.dll
+C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Infrastructure\obj\Debug\net9.0\TIGAuto.Infrastructure.sourcelink.json

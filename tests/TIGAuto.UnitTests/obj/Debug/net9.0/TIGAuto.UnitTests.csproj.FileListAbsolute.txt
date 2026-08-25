@@ -102,3 +102,4 @@ C:\Users\tebogot\source\repos\TIGAuto.New\tests\TIGAuto.UnitTests\obj\Debug\net9
 C:\Users\tebogot\source\repos\TIGAuto.New\tests\TIGAuto.UnitTests\obj\Debug\net9.0\TIGAuto.UnitTests.pdb
 C:\Users\tebogot\source\repos\TIGAuto.New\tests\TIGAuto.UnitTests\obj\Debug\net9.0\TIGAuto.UnitTests.genruntimeconfig.cache
 C:\Users\tebogot\source\repos\TIGAuto.New\tests\TIGAuto.UnitTests\obj\Debug\net9.0\ref\TIGAuto.UnitTests.dll
+C:\Users\tebogot\source\repos\TIGAuto.New\tests\TIGAuto.UnitTests\obj\Debug\net9.0\TIGAuto.UnitTests.sourcelink.json

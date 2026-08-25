@@ -3,8 +3,72 @@
   "WorkspaceRootPath": "C:\\Users\\tebogot\\source\\repos\\TIGAuto.New\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{2036B1A8-BF5D-3F2B-B3A3-4E5A1A54476F}|src\\TIGAuto.Domain\\TIGAuto.Domain.csproj|c:\\users\\tebogot\\source\\repos\\tigauto.new\\src\\tigauto.domain\\tigauto.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2036B1A8-BF5D-3F2B-B3A3-4E5A1A54476F}|src\\TIGAuto.Domain\\TIGAuto.Domain.csproj|solutionrelative:src\\tigauto.domain\\tigauto.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2036B1A8-BF5D-3F2B-B3A3-4E5A1A54476F}|src\\TIGAuto.Domain\\TIGAuto.Domain.csproj|c:\\users\\tebogot\\source\\repos\\tigauto.new\\src\\tigauto.domain\\entities\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2036B1A8-BF5D-3F2B-B3A3-4E5A1A54476F}|src\\TIGAuto.Domain\\TIGAuto.Domain.csproj|solutionrelative:src\\tigauto.domain\\entities\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2036B1A8-BF5D-3F2B-B3A3-4E5A1A54476F}|src\\TIGAuto.Domain\\TIGAuto.Domain.csproj|c:\\users\\tebogot\\source\\repos\\tigauto.new\\src\\tigauto.domain\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2036B1A8-BF5D-3F2B-B3A3-4E5A1A54476F}|src\\TIGAuto.Domain\\TIGAuto.Domain.csproj|solutionrelative:src\\tigauto.domain\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2036B1A8-BF5D-3F2B-B3A3-4E5A1A54476F}|src\\TIGAuto.Domain\\TIGAuto.Domain.csproj|c:\\users\\tebogot\\source\\repos\\tigauto.new\\src\\tigauto.domain\\entities\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2036B1A8-BF5D-3F2B-B3A3-4E5A1A54476F}|src\\TIGAuto.Domain\\TIGAuto.Domain.csproj|solutionrelative:src\\tigauto.domain\\entities\\vehicle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2108733A-A49C-8FE6-2C44-6754F36E7CF9}|src\\TIGAuto.Infrastructure\\TIGAuto.Infrastructure.csproj|c:\\users\\tebogot\\source\\repos\\tigauto.new\\src\\tigauto.infrastructure\\persistence\\saleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2108733A-A49C-8FE6-2C44-6754F36E7CF9}|src\\TIGAuto.Infrastructure\\TIGAuto.Infrastructure.csproj|solutionrelative:src\\tigauto.infrastructure\\persistence\\saleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2108733A-A49C-8FE6-2C44-6754F36E7CF9}|src\\TIGAuto.Infrastructure\\TIGAuto.Infrastructure.csproj|c:\\users\\tebogot\\source\\repos\\tigauto.new\\src\\tigauto.infrastructure\\persistence\\customerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2108733A-A49C-8FE6-2C44-6754F36E7CF9}|src\\TIGAuto.Infrastructure\\TIGAuto.Infrastructure.csproj|solutionrelative:src\\tigauto.infrastructure\\persistence\\customerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2108733A-A49C-8FE6-2C44-6754F36E7CF9}|src\\TIGAuto.Infrastructure\\TIGAuto.Infrastructure.csproj|c:\\users\\tebogot\\source\\repos\\tigauto.new\\src\\tigauto.infrastructure\\persistence\\vehicleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2108733A-A49C-8FE6-2C44-6754F36E7CF9}|src\\TIGAuto.Infrastructure\\TIGAuto.Infrastructure.csproj|solutionrelative:src\\tigauto.infrastructure\\persistence\\vehicleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2108733A-A49C-8FE6-2C44-6754F36E7CF9}|src\\TIGAuto.Infrastructure\\TIGAuto.Infrastructure.csproj|c:\\users\\tebogot\\source\\repos\\tigauto.new\\src\\tigauto.infrastructure\\persistence\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2108733A-A49C-8FE6-2C44-6754F36E7CF9}|src\\TIGAuto.Infrastructure\\TIGAuto.Infrastructure.csproj|solutionrelative:src\\tigauto.infrastructure\\persistence\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2036B1A8-BF5D-3F2B-B3A3-4E5A1A54476F}|src\\TIGAuto.Domain\\TIGAuto.Domain.csproj|c:\\users\\tebogot\\source\\repos\\tigauto.new\\src\\tigauto.domain\\entities\\vehicleimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2036B1A8-BF5D-3F2B-B3A3-4E5A1A54476F}|src\\TIGAuto.Domain\\TIGAuto.Domain.csproj|solutionrelative:src\\tigauto.domain\\entities\\vehicleimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2036B1A8-BF5D-3F2B-B3A3-4E5A1A54476F}|src\\TIGAuto.Domain\\TIGAuto.Domain.csproj|c:\\users\\tebogot\\source\\repos\\tigauto.new\\src\\tigauto.domain\\enums\\vehiclestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2036B1A8-BF5D-3F2B-B3A3-4E5A1A54476F}|src\\TIGAuto.Domain\\TIGAuto.Domain.csproj|solutionrelative:src\\tigauto.domain\\enums\\vehiclestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2036B1A8-BF5D-3F2B-B3A3-4E5A1A54476F}|src\\TIGAuto.Domain\\TIGAuto.Domain.csproj|c:\\users\\tebogot\\source\\repos\\tigauto.new\\src\\tigauto.domain\\enums\\fueltype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2036B1A8-BF5D-3F2B-B3A3-4E5A1A54476F}|src\\TIGAuto.Domain\\TIGAuto.Domain.csproj|solutionrelative:src\\tigauto.domain\\enums\\fueltype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2036B1A8-BF5D-3F2B-B3A3-4E5A1A54476F}|src\\TIGAuto.Domain\\TIGAuto.Domain.csproj|c:\\users\\tebogot\\source\\repos\\tigauto.new\\src\\tigauto.domain\\enums\\transmissiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2036B1A8-BF5D-3F2B-B3A3-4E5A1A54476F}|src\\TIGAuto.Domain\\TIGAuto.Domain.csproj|solutionrelative:src\\tigauto.domain\\enums\\transmissiontype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2108733A-A49C-8FE6-2C44-6754F36E7CF9}|src\\TIGAuto.Infrastructure\\TIGAuto.Infrastructure.csproj|c:\\users\\tebogot\\source\\repos\\tigauto.new\\src\\tigauto.infrastructure\\tigauto.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{2108733A-A49C-8FE6-2C44-6754F36E7CF9}|src\\TIGAuto.Infrastructure\\TIGAuto.Infrastructure.csproj|solutionrelative:src\\tigauto.infrastructure\\tigauto.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE53C8E2-A2F7-BD2B-43AD-7AB06DCEE468}|src\\TIGAuto.Api\\TIGAuto.Api.csproj|c:\\users\\tebogot\\source\\repos\\tigauto.new\\src\\tigauto.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE53C8E2-A2F7-BD2B-43AD-7AB06DCEE468}|src\\TIGAuto.Api\\TIGAuto.Api.csproj|solutionrelative:src\\tigauto.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE53C8E2-A2F7-BD2B-43AD-7AB06DCEE468}|src\\TIGAuto.Api\\TIGAuto.Api.csproj|c:\\users\\tebogot\\source\\repos\\tigauto.new\\src\\tigauto.api\\tigauto.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{AE53C8E2-A2F7-BD2B-43AD-7AB06DCEE468}|src\\TIGAuto.Api\\TIGAuto.Api.csproj|solutionrelative:src\\tigauto.api\\tigauto.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE53C8E2-A2F7-BD2B-43AD-7AB06DCEE468}|src\\TIGAuto.Api\\TIGAuto.Api.csproj|c:\\users\\tebogot\\source\\repos\\tigauto.new\\src\\tigauto.api\\tigauto.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{AE53C8E2-A2F7-BD2B-43AD-7AB06DCEE468}|src\\TIGAuto.Api\\TIGAuto.Api.csproj|solutionrelative:src\\tigauto.api\\tigauto.api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE53C8E2-A2F7-BD2B-43AD-7AB06DCEE468}|src\\TIGAuto.Api\\TIGAuto.Api.csproj|c:\\users\\tebogot\\source\\repos\\tigauto.new\\src\\tigauto.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AE53C8E2-A2F7-BD2B-43AD-7AB06DCEE468}|src\\TIGAuto.Api\\TIGAuto.Api.csproj|solutionrelative:src\\tigauto.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +78,149 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SaleConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\tebogot\\source\\repos\\TIGAuto.New\\src\\TIGAuto.Infrastructure\\Persistence\\SaleConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\TIGAuto.Infrastructure\\Persistence\\SaleConfiguration.cs",
+              "ToolTip": "C:\\Users\\tebogot\\source\\repos\\TIGAuto.New\\src\\TIGAuto.Infrastructure\\Persistence\\SaleConfiguration.cs",
+              "RelativeToolTip": "src\\TIGAuto.Infrastructure\\Persistence\\SaleConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T14:25:54.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CustomerConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\tebogot\\source\\repos\\TIGAuto.New\\src\\TIGAuto.Infrastructure\\Persistence\\CustomerConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\TIGAuto.Infrastructure\\Persistence\\CustomerConfiguration.cs",
+              "ToolTip": "C:\\Users\\tebogot\\source\\repos\\TIGAuto.New\\src\\TIGAuto.Infrastructure\\Persistence\\CustomerConfiguration.cs",
+              "RelativeToolTip": "src\\TIGAuto.Infrastructure\\Persistence\\CustomerConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T14:24:07.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "VehicleConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\tebogot\\source\\repos\\TIGAuto.New\\src\\TIGAuto.Infrastructure\\Persistence\\VehicleConfiguration.cs",
+              "RelativeDocumentMoniker": "src\\TIGAuto.Infrastructure\\Persistence\\VehicleConfiguration.cs",
+              "ToolTip": "C:\\Users\\tebogot\\source\\repos\\TIGAuto.New\\src\\TIGAuto.Infrastructure\\Persistence\\VehicleConfiguration.cs",
+              "RelativeToolTip": "src\\TIGAuto.Infrastructure\\Persistence\\VehicleConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T14:20:25.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Sale.cs",
+              "DocumentMoniker": "C:\\Users\\tebogot\\source\\repos\\TIGAuto.New\\src\\TIGAuto.Domain\\Entities\\Sale.cs",
+              "RelativeDocumentMoniker": "src\\TIGAuto.Domain\\Entities\\Sale.cs",
+              "ToolTip": "C:\\Users\\tebogot\\source\\repos\\TIGAuto.New\\src\\TIGAuto.Domain\\Entities\\Sale.cs",
+              "RelativeToolTip": "src\\TIGAuto.Domain\\Entities\\Sale.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T14:15:34.803Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\tebogot\\source\\repos\\TIGAuto.New\\src\\TIGAuto.Domain\\Entities\\Customer.cs",
+              "RelativeDocumentMoniker": "src\\TIGAuto.Domain\\Entities\\Customer.cs",
+              "ToolTip": "C:\\Users\\tebogot\\source\\repos\\TIGAuto.New\\src\\TIGAuto.Domain\\Entities\\Customer.cs",
+              "RelativeToolTip": "src\\TIGAuto.Domain\\Entities\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T14:14:52.387Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "VehicleImage.cs",
+              "DocumentMoniker": "C:\\Users\\tebogot\\source\\repos\\TIGAuto.New\\src\\TIGAuto.Domain\\Entities\\VehicleImage.cs",
+              "RelativeDocumentMoniker": "src\\TIGAuto.Domain\\Entities\\VehicleImage.cs",
+              "ToolTip": "C:\\Users\\tebogot\\source\\repos\\TIGAuto.New\\src\\TIGAuto.Domain\\Entities\\VehicleImage.cs",
+              "RelativeToolTip": "src\\TIGAuto.Domain\\Entities\\VehicleImage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T14:12:39.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Vehicle.cs",
+              "DocumentMoniker": "C:\\Users\\tebogot\\source\\repos\\TIGAuto.New\\src\\TIGAuto.Domain\\Entities\\Vehicle.cs",
+              "RelativeDocumentMoniker": "src\\TIGAuto.Domain\\Entities\\Vehicle.cs",
+              "ToolTip": "C:\\Users\\tebogot\\source\\repos\\TIGAuto.New\\src\\TIGAuto.Domain\\Entities\\Vehicle.cs",
+              "RelativeToolTip": "src\\TIGAuto.Domain\\Entities\\Vehicle.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAQwB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T14:11:46.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "FuelType.cs",
+              "DocumentMoniker": "C:\\Users\\tebogot\\source\\repos\\TIGAuto.New\\src\\TIGAuto.Domain\\Enums\\FuelType.cs",
+              "RelativeDocumentMoniker": "src\\TIGAuto.Domain\\Enums\\FuelType.cs",
+              "ToolTip": "C:\\Users\\tebogot\\source\\repos\\TIGAuto.New\\src\\TIGAuto.Domain\\Enums\\FuelType.cs",
+              "RelativeToolTip": "src\\TIGAuto.Domain\\Enums\\FuelType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T14:10:27.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TIGAuto.Infrastructure",
-              "DocumentMoniker": "C:\\Users\\tebogot\\source\\repos\\TIGAuto.New\\src\\TIGAuto.Infrastructure\\TIGAuto.Infrastructure.csproj",
-              "RelativeDocumentMoniker": "src\\TIGAuto.Infrastructure\\TIGAuto.Infrastructure.csproj",
-              "ToolTip": "C:\\Users\\tebogot\\source\\repos\\TIGAuto.New\\src\\TIGAuto.Infrastructure\\TIGAuto.Infrastructure.csproj*",
-              "RelativeToolTip": "src\\TIGAuto.Infrastructure\\TIGAuto.Infrastructure.csproj*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "TIGAuto.Domain",
+              "DocumentMoniker": "C:\\Users\\tebogot\\source\\repos\\TIGAuto.New\\src\\TIGAuto.Domain\\TIGAuto.Domain.csproj",
+              "RelativeDocumentMoniker": "src\\TIGAuto.Domain\\TIGAuto.Domain.csproj",
+              "ToolTip": "C:\\Users\\tebogot\\source\\repos\\TIGAuto.New\\src\\TIGAuto.Domain\\TIGAuto.Domain.csproj",
+              "RelativeToolTip": "src\\TIGAuto.Domain\\TIGAuto.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-08-23T14:09:25.528Z",
+              "WhenOpened": "2026-08-24T14:08:27.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "TransmissionType.cs",
+              "DocumentMoniker": "C:\\Users\\tebogot\\source\\repos\\TIGAuto.New\\src\\TIGAuto.Domain\\Enums\\TransmissionType.cs",
+              "RelativeDocumentMoniker": "src\\TIGAuto.Domain\\Enums\\TransmissionType.cs",
+              "ToolTip": "C:\\Users\\tebogot\\source\\repos\\TIGAuto.New\\src\\TIGAuto.Domain\\Enums\\TransmissionType.cs",
+              "RelativeToolTip": "src\\TIGAuto.Domain\\Enums\\TransmissionType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T14:10:58.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "VehicleStatus.cs",
+              "DocumentMoniker": "C:\\Users\\tebogot\\source\\repos\\TIGAuto.New\\src\\TIGAuto.Domain\\Enums\\VehicleStatus.cs",
+              "RelativeDocumentMoniker": "src\\TIGAuto.Domain\\Enums\\VehicleStatus.cs",
+              "ToolTip": "C:\\Users\\tebogot\\source\\repos\\TIGAuto.New\\src\\TIGAuto.Domain\\Enums\\VehicleStatus.cs",
+              "RelativeToolTip": "src\\TIGAuto.Domain\\Enums\\VehicleStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T14:09:30.68Z",
               "EditorCaption": ""
             },
             {
@@ -40,6 +234,82 @@
             {
               "$type": "Bookmark",
               "Name": "ST:2033337944:0:{71f361cc-493f-47c0-923f-f2570b6f8618}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\tebogot\\source\\repos\\TIGAuto.New\\src\\TIGAuto.Infrastructure\\Persistence\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "src\\TIGAuto.Infrastructure\\Persistence\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\tebogot\\source\\repos\\TIGAuto.New\\src\\TIGAuto.Infrastructure\\Persistence\\ApplicationDbContext.cs*",
+              "RelativeToolTip": "src\\TIGAuto.Infrastructure\\Persistence\\ApplicationDbContext.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-23T14:33:15.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TIGAuto.Api",
+              "DocumentMoniker": "C:\\Users\\tebogot\\source\\repos\\TIGAuto.New\\src\\TIGAuto.Api\\TIGAuto.Api.csproj",
+              "RelativeDocumentMoniker": "src\\TIGAuto.Api\\TIGAuto.Api.csproj",
+              "ToolTip": "C:\\Users\\tebogot\\source\\repos\\TIGAuto.New\\src\\TIGAuto.Api\\TIGAuto.Api.csproj",
+              "RelativeToolTip": "src\\TIGAuto.Api\\TIGAuto.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-24T13:06:06.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TIGAuto.Api.http",
+              "DocumentMoniker": "C:\\Users\\tebogot\\source\\repos\\TIGAuto.New\\src\\TIGAuto.Api\\TIGAuto.Api.http",
+              "RelativeDocumentMoniker": "src\\TIGAuto.Api\\TIGAuto.Api.http",
+              "ToolTip": "C:\\Users\\tebogot\\source\\repos\\TIGAuto.New\\src\\TIGAuto.Api\\TIGAuto.Api.http",
+              "RelativeToolTip": "src\\TIGAuto.Api\\TIGAuto.Api.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2026-08-24T11:12:34.378Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\tebogot\\source\\repos\\TIGAuto.New\\src\\TIGAuto.Api\\Program.cs",
+              "RelativeDocumentMoniker": "src\\TIGAuto.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\tebogot\\source\\repos\\TIGAuto.New\\src\\TIGAuto.Api\\Program.cs",
+              "RelativeToolTip": "src\\TIGAuto.Api\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-24T08:20:48.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\tebogot\\source\\repos\\TIGAuto.New\\src\\TIGAuto.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "src\\TIGAuto.Api\\appsettings.json",
+              "ToolTip": "C:\\Users\\tebogot\\source\\repos\\TIGAuto.New\\src\\TIGAuto.Api\\appsettings.json",
+              "RelativeToolTip": "src\\TIGAuto.Api\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-08-23T14:50:31.065Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TIGAuto.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\tebogot\\source\\repos\\TIGAuto.New\\src\\TIGAuto.Infrastructure\\TIGAuto.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "src\\TIGAuto.Infrastructure\\TIGAuto.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\tebogot\\source\\repos\\TIGAuto.New\\src\\TIGAuto.Infrastructure\\TIGAuto.Infrastructure.csproj*",
+              "RelativeToolTip": "src\\TIGAuto.Infrastructure\\TIGAuto.Infrastructure.csproj*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-08-23T14:09:25.528Z",
+              "EditorCaption": ""
             }
           ]
         }

@@ -9,3 +9,4 @@ C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Domain\obj\Debug\net9.0\TI
 C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Domain\obj\Debug\net9.0\refint\TIGAuto.Domain.dll
 C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Domain\obj\Debug\net9.0\TIGAuto.Domain.pdb
 C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Domain\obj\Debug\net9.0\ref\TIGAuto.Domain.dll
+C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Domain\obj\Debug\net9.0\TIGAuto.Domain.sourcelink.json

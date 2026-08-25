@@ -22,6 +22,22 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
+using (var scope = app.Services.CreateScope())
+{
+    var db = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+
+    try
+    {
+        var canConnect = db.Database.CanConnect();
+
+        Console.WriteLine(canConnect ? "MariaDB connection successful." : "MariaDB connection failed.");
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"MariaDB connection error: {ex.Message}");
+    }
+}
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();

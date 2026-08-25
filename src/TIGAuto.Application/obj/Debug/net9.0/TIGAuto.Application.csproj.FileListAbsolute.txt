@@ -13,3 +13,4 @@ C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Application\obj\Debug\net9
 C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Application\obj\Debug\net9.0\refint\TIGAuto.Application.dll
 C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Application\obj\Debug\net9.0\TIGAuto.Application.pdb
 C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Application\obj\Debug\net9.0\ref\TIGAuto.Application.dll
+C:\Users\tebogot\source\repos\TIGAuto.New\src\TIGAuto.Application\obj\Debug\net9.0\TIGAuto.Application.sourcelink.json
